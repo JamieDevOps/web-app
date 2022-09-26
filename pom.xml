@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://54.227.83.70:8081/repository/pipeline-app-release/</url>
+	      <url>http://54.227.83.70:8081/repository/new-project-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://54.227.83.70:8081/repository/pipeline-app-snapshot/</url>
+	      <url>http://54.227.83.70:8081/repository/new-project-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
