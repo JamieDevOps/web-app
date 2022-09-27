@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://50.19.133.21:8081/repository/jamie-app-release/</url>
+	      <url>http://54.163.212.196:8081/repository/jamie-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://50.19.133.21:8081/repository/jamie-app-snapshot/</url>
+	      <url>http://54.163.212.196:8081/repository/jamie-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
