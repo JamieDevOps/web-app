@@ -19,6 +19,6 @@ sh "${MHD}/bin/mvn deploy"
 }
 stage('DeploytoTomcat'){
 sh "echo Deploy to Tomcat server"
-deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://100.26.137.219:7000/')], contextPath: null, war: 'target/*war'
+deploy adapters: [tomcat9(credentialsId: 'tomcat-cred', path: '', url: 'http://3.82.46.67:7000/')], contextPath: null, war: 'target/*war'
 }
 }
